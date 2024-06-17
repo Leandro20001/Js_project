@@ -1,0 +1,79 @@
+body{
+  background-color: #ffffff;
+  margin:0;
+  padding: 0;
+  height: 100%;
+}
+#logo{
+  margin: 12px auto auto 24px;
+  width: 98px;
+  height: 98px;
+}
+#a{
+  height: 96.8vh;
+}
+h1{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(68, 180, 241);
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 3.2em;
+  text-align: center;
+}
+.eSearch{
+  padding: 8px;
+  margin: 12px auto;
+  display: block;
+  background-color: #ffffff;
+  border: 1.4px solid;
+  border-color: black;
+  width: 448px;
+  height: fit-content;
+  border-radius: 16px;
+  
+}
+.submitBtn{
+  display: block;
+  background-color: rgb(68, 180, 241);
+  transition: 200ms;
+  color: #ffffff;
+  font-size: 2em;
+  font-family: sans-serif;
+  margin: 24px auto;
+  cursor: pointer;
+  border: none;
+  font-size:24px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  border-radius: 4.4px;
+  padding: 4.4px;
+}
+.submitBtn:hover{
+  background-color: rgb(57, 151, 201);
+  transition: 200ms;
+}
+.eSearch>form>input{
+  display: block;
+  margin: 12px auto 0 auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 64%;
+  padding: 0.4em;
+}
+.eSearch>form>select{
+  cursor: pointer;
+  display: block;
+  margin: 12px auto;
+  width: 200px;
+  padding: 0.4em;
+  border-radius: 8px;
+}
+.rodape{
+  display: block;
+  background-color: rgb(68, 180, 241);
+  color: #ffffff;
+  height: 94px;
+  text-align: center;
+}
