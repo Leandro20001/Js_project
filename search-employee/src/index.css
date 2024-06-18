@@ -2,7 +2,14 @@ body{
   background-color: #ffffff;
   margin:0;
   padding: 0;
-  height: 100%;
+  min-height: 100vh;
+}
+.App{
+  padding: 0;
+  margin: 0;
+  min-height:100vh;
+  display: flex;
+  flex-direction: column;
 }
 #logo{
   margin: 12px auto auto 24px;
@@ -16,7 +23,7 @@ h1{
   width: 60%;
   display: block;
   margin: 0 auto;
-  background-color: rgb(68, 180, 241);
+  background-color: rgb(2, 101, 154);
   color: #ffffff;
   font-family: sans-serif;
   font-size: 3.2em;
@@ -32,11 +39,38 @@ h1{
   width: 448px;
   height: fit-content;
   border-radius: 16px;
-  
 }
+.emploBox{
+  margin: 24px auto;
+  width: 720px;
+  max-width: 100%;
+  min-height: 400px;
+  height: fit-content;
+  border-radius: 16px;
+  border: 1px solid black;
+}
+.emploInfo{
+  margin: 8px auto;
+  display: block;
+  background-color: rgb(57, 151, 201);
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.6em;
+  font-family: sans-serif;
+  letter-spacing: 1.2px;
+}
+.emploInfo:first-child{
+  border-radius: 16px 16px 0 0 ;
+  margin-top: 0;
+}
+option{
+  cursor: pointer;
+}
+
 .submitBtn{
   display: block;
-  background-color: rgb(68, 180, 241);
+  background-color: rgb(2, 101, 154);
   transition: 200ms;
   color: #ffffff;
   font-size: 2em;
@@ -48,10 +82,10 @@ h1{
   letter-spacing: 2px;
   font-weight: bolder;
   border-radius: 4.4px;
-  padding: 4.4px;
+  padding: 12px;
 }
 .submitBtn:hover{
-  background-color: rgb(57, 151, 201);
+  background-color: rgb(2, 101, 154);
   transition: 200ms;
 }
 .eSearch>form>input{
@@ -66,13 +100,17 @@ h1{
   cursor: pointer;
   display: block;
   margin: 12px auto;
-  width: 200px;
+  width: 298px;
+  max-width: 100%;
   padding: 0.4em;
   border-radius: 8px;
+  border: 1px solid black;
 }
 .rodape{
-  display: block;
-  background-color: rgb(68, 180, 241);
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(2, 101, 154);
   color: #ffffff;
   height: 94px;
   text-align: center;
