@@ -85,7 +85,7 @@ option{
   padding: 12px;
 }
 .submitBtn:hover{
-  background-color: rgb(2, 101, 154);
+  background-color: rgba(2, 101, 154, 0.782);
   transition: 200ms;
 }
 .eSearch>form>input{

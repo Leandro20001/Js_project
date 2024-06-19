@@ -3,7 +3,7 @@ import { useState } from "react"
 function EmploForm(){
     const [name,sendName] = useState()
     const [salary,setSalary] = useState()
-    const [cargo,setCargo] = useState()
+    const [cargo,setCargo] = useState('Estagiario')
     function showName(event){
         event.preventDefault()
         console.log(name,salary,cargo)
