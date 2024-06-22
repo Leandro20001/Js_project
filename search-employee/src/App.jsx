@@ -8,8 +8,6 @@ function App(){
      <h1>Adicione Seu Funcionario:</h1>
      <EmploForm/>
 
-
-    
     </div>
   )
 }
